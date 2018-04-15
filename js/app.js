@@ -44,7 +44,7 @@ $(document).ready(function() {
                 $('#t').append('רץ ישראל');
             }
             if ($('#landofisrael').html() == "L") {
-                $('#landofisrael').append('AND OF ISRAEL').css('visibility', 'visible');
+                $('#landofisrael').append('and of Israel').css('visibility', 'visible');
             }
             $('#israel').show(0, function() {
                 this.play();

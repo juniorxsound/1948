@@ -13,6 +13,7 @@ $(document).ready(function() {
         77: false
     };
     $(document).keydown(function(keycombination) {
+        $('.splash_text_en').fadeOut(250);
         if (keycombination.keyCode in map) {
             map[keycombination.keyCode] = true;
             if (map[88] && map[77]) {

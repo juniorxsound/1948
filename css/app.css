@@ -85,18 +85,19 @@ video {
   position: relative;
   top: 30px; right: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 1.5vh;
+  font-size: 1.6vh;
   font-weight: bold;
   text-align: right;
 }
 .videolistitem_en{
+  color: rgb(0, 0, 255);
   z-index: 100;
   padding: 3px;
   visibility: hidden;
   position: relative;
   top: 30px; left: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 1.5vh;
+  font-size: 1.6vh;
   font-weight: bold;
   text-align: left;
 }

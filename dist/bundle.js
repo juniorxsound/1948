@@ -8,6 +8,12 @@ $(document).ready(function() {
   $('body').click(()=>{
       $('.splash_text_en').fadeOut(250);
   });
+
+  //About
+  $('#about_en').click(()=>{
+    $('.about_text_en').fadeToggle(250);
+  });
+
     //Keyboard Pressed
     var map = {
         88: false,

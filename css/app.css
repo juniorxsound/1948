@@ -76,7 +76,7 @@ video {
 #text_container{
   position: absolute;
   width: 100%;
-  top: 12%;
+  top: 15%;
 }
 .videolistitem_he{
   color: rgb(0, 0, 255);
@@ -85,7 +85,7 @@ video {
   position: relative;
   top: 30px; right: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 17px;
+  font-size: 1.5vh;
   font-weight: bold;
   text-align: right;
 }
@@ -93,12 +93,11 @@ video {
   color: rgb(0, 0, 255);
   z-index: 100;
   padding: 3px;
-  padding: 3px;
   visibility: hidden;
   position: relative;
   top: 30px; left: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 17px;
+  font-size: 1.5vh;
   font-weight: bold;
   text-align: left;
 }
@@ -124,23 +123,23 @@ video {
 #about_he{
   display: none;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 1.6vh;
+  font-size: 1.5vh;
 }
 #about_en{
   position: absolute;
-  bottom: 50px; left: 45%;
+  bottom: 20px; left: 45%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.5vh;
 }
 #share_en{
   position: absolute;
-  bottom: 50px; left: 55%;
+  bottom: 20px; left: 55%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.5vh;
 }
 .splash_text_en{
   font-family: 'Conv_Days-Bold';

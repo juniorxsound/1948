@@ -77,7 +77,7 @@ $(document).ready(function() {
                 $('#s').append('ת');
             }
             if ($('#religiontext').html() == "R") {
-                $('#religiontext').append('religon').css('visibility', 'visible');
+                $('#religiontext').append('eligon').css('visibility', 'visible');
             }
             $('#religion').show(0, function() {
                 this.play();
@@ -159,7 +159,7 @@ $(document).ready(function() {
                 $('#f').append('ל תושביה');
             }
             if ($('#inhabits').html() == "A") {
-                $('#inhabits').append("all it's inhabits").css('visibility', 'visible');
+                $('#inhabits').append("ll it's inhabits").css('visibility', 'visible');
             }
             $('#kol').show(0, function() {
                 this.play();

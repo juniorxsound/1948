@@ -56,7 +56,7 @@ $(document).ready(function() {
                 $('#c').append('טחון');
             }
             if ($('#securitytext').html() == "S") {
-                $('#securitytext').append('ECURITY').css('visibility', 'visible');
+                $('#securitytext').append('ecurity').css('visibility', 'visible');
             }
             $('#security').show(0, function() {
                 this.play();
@@ -67,7 +67,7 @@ $(document).ready(function() {
                 $('#d').append('זע');
             }
             if ($('#racetext').html() == "R") {
-                $('#racetext').append('ACE').css('visibility', 'visible');
+                $('#racetext').append('ace').css('visibility', 'visible');
             }
             $('#race').show(0, function() {
                 this.play();
@@ -78,7 +78,7 @@ $(document).ready(function() {
                 $('#s').append('ת');
             }
             if ($('#religiontext').html() == "R") {
-                $('#religiontext').append('ELIGION').css('visibility', 'visible');
+                $('#religiontext').append('religon').css('visibility', 'visible');
             }
             $('#religion').show(0, function() {
                 this.play();
@@ -89,7 +89,7 @@ $(document).ready(function() {
                 $('#v').replaceWith('<div class="videolistitem_he" id="v">-ה</div>');
             }
             if ($('#the').html() == "T") {
-                $('#the').append('HE').css('visibility', 'visible');
+                $('#the').append('he').css('visibility', 'visible');
             }
             $('#ha').show(0, function() {
                 this.play();
@@ -101,7 +101,7 @@ $(document).ready(function() {
                 $('#u').replaceWith('<div class="videolistitem_he" id="u">-ו</div>');
             }
             if ($('#and').html() == "A") {
-                $('#and').append('ND').css('visibility', 'visible');
+                $('#and').append('nd').css('visibility', 'visible');
             }
             $('#ve').show(0, function() {
                 this.play();
@@ -112,7 +112,7 @@ $(document).ready(function() {
                 $('#z').append('כות');
             }
             if ($('#right').html() == "R") {
-                $('#right').append('IGHT').css('visibility', 'visible');
+                $('#right').append('ight').css('visibility', 'visible');
             }
             $('#zhoot').show(0, function() {
                 this.play();
@@ -123,7 +123,7 @@ $(document).ready(function() {
                 $('#j').append('ירות');
             }
             if ($('#freedom').html() == "F") {
-                $('#freedom').append('REEDOM').css('visibility', 'visible');
+                $('#freedom').append('reedom').css('visibility', 'visible');
             }
             $('#hiroot').show(0, function() {
                 this.play();
@@ -134,7 +134,7 @@ $(document).ready(function() {
                 $('#y').append('בח');
             }
             if ($('#massacre').html() == "M") {
-                $('#massacre').append('ASSACRE').css('visibility', 'visible');
+                $('#massacre').append('assacre').css('visibility', 'visible');
             }
             $('#tevach').show(0, function() {
                 this.play();
@@ -145,7 +145,7 @@ $(document).ready(function() {
                 $('#h').append('הודי');
             }
             if ($('#jewishtext').html() == "J") {
-                $('#jewishtext').append('EWISH').css('visibility', 'visible');
+                $('#jewishtext').append('ewish').css('visibility', 'visible');
             }
             $('#jewishtop').show(0, function() {
                 this.play();
@@ -160,7 +160,7 @@ $(document).ready(function() {
                 $('#f').append('ל תושביה');
             }
             if ($('#inhabits').html() == "A") {
-                $('#inhabits').append("LL IT'S INHABITS").css('visibility', 'visible');
+                $('#inhabits').append("all it's inhabits").css('visibility', 'visible');
             }
             $('#kol').show(0, function() {
                 this.play();
@@ -171,7 +171,7 @@ $(document).ready(function() {
                 $('#k').append('אומי');
             }
             if ($('#nationaltext').html() == "N") {
-                $('#nationaltext').append("ATIONAL").css('visibility', 'visible');
+                $('#nationaltext').append("ational").css('visibility', 'visible');
             }
             $('#national').show(0, function() {
                 this.play();
@@ -182,7 +182,7 @@ $(document).ready(function() {
                 $('#n').append('לחמת');
             }
             if ($('#wartext').html() == "W") {
-                $('#wartext').append("AR").css('visibility', 'visible');
+                $('#wartext').append("ar").css('visibility', 'visible');
             }
             $('#war').show(0, function() {
                 this.play();
@@ -193,7 +193,7 @@ $(document).ready(function() {
                 $('#b').append('אצי');
             }
             if ($('#nazitext').html() == "N") {
-                $('#nazitext').append("AZI").css('visibility', 'visible');
+                $('#nazitext').append("azi").css('visibility', 'visible');
             }
             $('#nazi').show(0, function() {
                 this.play();
@@ -204,7 +204,7 @@ $(document).ready(function() {
                 $('#x').append('כנה');
             }
             if ($('#dangertext').html() == "D") {
-                $('#dangertext').append("ANGER").css('visibility', 'visible');
+                $('#dangertext').append("anger").css('visibility', 'visible');
             }
             $('#sakana').show(0, function() {
                 this.play();
@@ -217,7 +217,7 @@ $(document).ready(function() {
                 $('#g').append('ברית');
             }
             if ($('#hebrewtext').html() == "H") {
-                $('#hebrewtext').append("EBREW").css('visibility', 'visible');
+                $('#hebrewtext').append("ebrew").css('visibility', 'visible');
             }
             $('#ivrit').show(0, function() {
                 this.play();
@@ -228,7 +228,7 @@ $(document).ready(function() {
                 $('#p').append('תרון');
             }
             if ($('#solutiontext').html() == "S") {
-                $('#solutiontext').append("OLUTION").css('visibility', 'visible');
+                $('#solutiontext').append("olution").css('visibility', 'visible');
             }
             $('#pitaroon').show(0, function() {
                 this.play();
@@ -239,7 +239,7 @@ $(document).ready(function() {
                 $('#m').append('יוני');
             }
             if ($('#zionisttext').html() == "Z") {
-                $('#zionisttext').append("IONIST").css('visibility', 'visible');
+                $('#zionisttext').append("ionist").css('visibility', 'visible');
             }
             $('#tzioni').show(0, function() {
                 this.play();
@@ -251,7 +251,7 @@ $(document).ready(function() {
                 $('#e').append('דושים');
             }
             if ($('#holytext').html() == "H") {
-                $('#holytext').append("OLY").css('visibility', 'visible');
+                $('#holytext').append("oly").css('visibility', 'visible');
             }
             $('#kdoshim').show(0, function() {
                 this.play();
@@ -262,7 +262,7 @@ $(document).ready(function() {
                 $('#r').append('שע');
             }
             if ($('#eviltext').html() == "E") {
-                $('#eviltext').append("VIL").css('visibility', 'visible');
+                $('#eviltext').append("vil").css('visibility', 'visible');
             }
             $('#evil').show(0, function() {
                 this.play();
@@ -273,7 +273,7 @@ $(document).ready(function() {
                 $('#a').append('לום');
             }
             if ($('#peacetext').html() == "P") {
-                $('#peacetext').append("EACE").css('visibility', 'visible');
+                $('#peacetext').append("eace").css('visibility', 'visible');
             }
             $('#peace').show(0, function() {
                 this.play();
@@ -284,7 +284,7 @@ $(document).ready(function() {
                 $('#texttkuma').append('קומה');
             }
             if ($('#resurrection').html() == "R") {
-                $('#resurrection').append("ESURRECTION").css('visibility', 'visible');
+                $('#resurrection').append("esurrection").css('visibility', 'visible');
             }
             $('#tkuma').show(0, function() {
                 this.play();

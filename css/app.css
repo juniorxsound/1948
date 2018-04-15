@@ -76,7 +76,7 @@ video {
 #text_container{
   position: absolute;
   width: 100%;
-  top: 15%;
+  top: 12%;
 }
 .videolistitem_he{
   color: rgb(0, 0, 255);
@@ -85,7 +85,7 @@ video {
   position: relative;
   top: 30px; right: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 1.6vh;
+  font-size: 17px;
   font-weight: bold;
   text-align: right;
 }
@@ -97,19 +97,19 @@ video {
   position: relative;
   top: 30px; left: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 1.6vh;
+  font-size: 17px;
   font-weight: bold;
   text-align: left;
 }
 .logo{
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 8%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .logo img{
-  width: 100%;
+  width: 70%;
 }
 .footer{
   text-align: center;
@@ -120,14 +120,26 @@ video {
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-.about_he{
+#about_he{
   display: none;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 3vh;
+  font-size: 1.6vh;
 }
-.about_en{
+#about_en{
+  position: absolute;
+  bottom: 20px; left: 45%;
+  color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 3vh;
+  font-weight: bold;
+  font-size: 17px;
+}
+#share_en{
+  position: absolute;
+  bottom: 20px; left: 55%;
+  color: rgb(0, 0, 255);
+  font-family: 'Miriam Libre', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
 }
 .splash_text_en{
   font-family: 'Conv_Days-Bold';

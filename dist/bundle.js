@@ -5,19 +5,8 @@ var $ = require("jquery");
 $(document).ready(function() {
   console.log('app initialised');
   $('.splash_text_en').delay(2500).fadeOut(250);
-  $('.english_about_click').click(function(){
-    $('.about_text_en').fadeToggle('fast');
-  });
-  $('.about_he_click').click(function(){
-    $('.about_text_he').fadeToggle('fast');
-  });
-  $('.swith_to_heb').click(function(){
-    $('.about_text_en').fadeOut('fast');
-    $('.about_en').replaceWith('<div class="about_en"><span class="about_he_click">אודות</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 2vh;"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope-o" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="swith_to_en">A</span>&nbsp;&nbsp;<span style="color:rgb(0, 84, 255);">א</span></div>');
-  });
-  $('.swith_to_en').click(function(){
-    $('.about_text_he').fadeOut('fast');
-    $('.about_en').replaceWith('<div class="about_en"><span class="english_about_click">ABOUT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 2vh;"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope-o" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:rgb(0, 84, 255);">A</span>&nbsp;&nbsp;<span class="swith_to_heb">א</span></div>');
+  $('body').click(()=>{
+      $('.splash_text_en').fadeOut(250);
   });
     //Keyboard Pressed
     var map = {

@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'cooperative';
+	src: url('fonts/Cooperative-Bold.eot');
+	src: local('☺'), url('fonts/Cooperative-Bold.woff') format('woff'), url('fonts/Cooperative-Bold.ttf') format('truetype'), url('fonts/Cooperative-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'cooperative';
+	src: url('fonts/Cooperative-Regular.eot');
+	src: local('☺'), url('fonts/Cooperative-Regular.woff') format('woff'), url('fonts/Cooperative-Regular.ttf') format('truetype'), url('fonts/Cooperative-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

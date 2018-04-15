@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'Conv_Days-Bold';
+	src: url('fonts/Days-Bold.eot');
+	src: local('☺'), url('fonts/Days-Bold.woff') format('woff'), url('fonts/Days-Bold.ttf') format('truetype'), url('fonts/Days-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

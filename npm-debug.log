@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'watch' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle israeli_alphabet@1.0.0~prewatch: israeli_alphabet@1.0.0
+6 silly lifecycle israeli_alphabet@1.0.0~prewatch: no script for prewatch, continuing
+7 info lifecycle israeli_alphabet@1.0.0~watch: israeli_alphabet@1.0.0
+8 verbose lifecycle israeli_alphabet@1.0.0~watch: unsafe-perm in lifecycle true
+9 verbose lifecycle israeli_alphabet@1.0.0~watch: PATH: /usr/share/npm/bin/node-gyp-bin:/home/juniorxsound/Desktop/Dev/Israeli Alphabet/node_modules/.bin:/home/juniorxsound/bin:/home/juniorxsound/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle israeli_alphabet@1.0.0~watch: CWD: /home/juniorxsound/Desktop/Dev/Israeli Alphabet
+11 silly lifecycle israeli_alphabet@1.0.0~watch: Args: [ '-c', 'watchify js/app.js -o dist/bundle.js -v' ]
+12 info lifecycle israeli_alphabet@1.0.0~watch: Failed to exec watch script
+13 verbose stack Error: israeli_alphabet@1.0.0 watch: `watchify js/app.js -o dist/bundle.js -v`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:821:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid israeli_alphabet@1.0.0
+15 verbose cwd /home/juniorxsound/Desktop/Dev/Israeli Alphabet
+16 error Linux 4.13.0-38-generic
+17 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "watch"
+18 error node v4.2.6
+19 error npm  v3.5.2
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error israeli_alphabet@1.0.0 watch: `watchify js/app.js -o dist/bundle.js -v`
+24 error spawn ENOENT
+25 error Failed at the israeli_alphabet@1.0.0 watch script 'watchify js/app.js -o dist/bundle.js -v'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the israeli_alphabet package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     watchify js/app.js -o dist/bundle.js -v
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs israeli_alphabet
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls israeli_alphabet
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

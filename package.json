@@ -1,0 +1,23 @@
+{
+  "name": "israeli_alphabet",
+  "version": "1.0.0",
+  "description": "The declaration of independence is Israel's founding text. This website allows you to remix that document according to your values and world view, and create an image that reflects that.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "watch": "watchify js/app.js -o dist/bundle.js -v",
+    "build": "browserify js/app.js  | uglifyjs -mc warnings=false > dist/bundle.js"
+  },
+  "author": "Or Fleisher",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.0.0",
+    "web-midi-api": "^1.4.4"
+  },
+  "dependencies": {
+    "uglify-js": "^2.6.4",
+    "watchify": "^3.7.0"
+  }
+}

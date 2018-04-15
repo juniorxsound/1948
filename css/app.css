@@ -76,9 +76,12 @@ video {
 .videolistitem_he{
   z-index: 100;
   position: relative;
-  top: 30px; right: 50px;
+  margin: auto;
+  padding: 0;
+  top: 50%; right: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5vh;
+  font-weight: bold;
   text-align: right;
 }
 .videolistitem_en{
@@ -87,7 +90,8 @@ video {
   position: relative;
   top: 30px; left: 50px;
   font-family: 'Miriam Libre', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5vh;
+  font-weight: bold;
   text-align: left;
 }
 .logo{

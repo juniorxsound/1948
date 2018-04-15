@@ -3,7 +3,7 @@ var $ = require("jquery");
 
 $(document).ready(function() {
   console.log('app initialised');
-  $('.splash_text_en').delay(2500).fadeOut(250);
+  // $('.splash_text_en').delay(2500).fadeOut(250);
   $('body').click(()=>{
       $('.splash_text_en').fadeOut(250);
   });

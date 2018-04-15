@@ -93,6 +93,7 @@ video {
   color: rgb(0, 0, 255);
   z-index: 100;
   padding: 3px;
+  padding: 3px;
   visibility: hidden;
   position: relative;
   top: 30px; left: 50px;
@@ -127,7 +128,7 @@ video {
 }
 #about_en{
   position: absolute;
-  bottom: 20px; left: 45%;
+  bottom: 50px; left: 45%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;
@@ -135,7 +136,7 @@ video {
 }
 #share_en{
   position: absolute;
-  bottom: 20px; left: 55%;
+  bottom: 50px; left: 55%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;

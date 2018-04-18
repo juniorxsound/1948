@@ -9,7 +9,7 @@ $(document).ready(function() {
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)){
       console.log('Mobile');
       setupNotSupported();
-    } else if(/Chrome/i.test(ua) && window.innerWidth > 850){
+    } else if(/Chrome/i.test(ua) && window.innerWidth > 1154){
 
       //Desktop chrome
       console.log('Desktop Chrome, yay!');

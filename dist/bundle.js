@@ -35,7 +35,7 @@ function linkCopied(){
 }
 
 let currentLanguage = 'en';
-
+let aboutOpen = false;
 
 function setupApp(){
     $("#language_switch").click(()=>{
@@ -50,11 +50,26 @@ function setupApp(){
     // $('.splash_text_en').delay(2500).fadeOut(250);
     $('body').click(()=>{
         $('.splash_text_en').fadeOut(250);
+        if(aboutOpen){
+          console.log('should close');
+          $('.about_text_en').fadeToggle(250);
+          $('.about_text_he').fadeToggle(250, ()=>{
+            aboutOpen = !aboutOpen;
+            $('body').css('cursor', 'default');
+            console.log(aboutOpen);
+          });
+        }
     });
 
     //About
     $('#about_en').click(()=>{
       $('.about_text_en').fadeToggle(250);
+      $('.about_text_he').fadeToggle(250, ()=>{
+        aboutOpen = !aboutOpen;
+        $('body').css('cursor', 'url(assets/pointer.png), auto')
+        console.log(aboutOpen);
+      });
+
     });
 
     $('#share_en').click(()=>{

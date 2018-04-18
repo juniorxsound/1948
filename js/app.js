@@ -33,8 +33,19 @@ function linkCopied(){
   });
 }
 
-function setupApp(){
+let currentLanguage = 'en';
 
+
+function setupApp(){
+    $("#language_switch").click(()=>{
+      if(currentLanguage == 'en'){
+        currentLanguage = 'he';
+        console.log('Language is ' + language_switch);
+      } else {
+        currentLanguage = 'en';
+        console.log('Language is ' + language_switch);
+      }
+    });
     // $('.splash_text_en').delay(2500).fadeOut(250);
     $('body').click(()=>{
         $('.splash_text_en').fadeOut(250);

@@ -47,7 +47,10 @@ function setupApp(){
     });
 
     $('#share_en').click(()=>{
+      //Copy the link
       copy('http://1948.site');
+
+      //Show the gesture
       linkCopied();
       console.log('Link copied');
     });

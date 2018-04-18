@@ -9,7 +9,7 @@ $(document).ready(function() {
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)){
       console.log('Mobile');
       setupNotSupported();
-    } else if(/Chrome/i.test(ua)){
+    } else if(/Chrome/i.test(ua) && window.innerWidth > 850){
 
       //Desktop chrome
       console.log('Desktop Chrome, yay!');
@@ -51,8 +51,8 @@ function setupApp(){
         $('.splash_text_en').fadeOut(250);
         if(aboutOpen){
           console.log('should close');
-          $('.about_text_en').fadeToggle(250);
-          $('.about_text_he').fadeToggle(250, ()=>{
+          $('.about_text_en').fadeOut(250);
+          $('.about_text_he').fadeOut(250, ()=>{
             aboutOpen = !aboutOpen;
             $('body').css('cursor', 'default');
             console.log(aboutOpen);
@@ -62,8 +62,8 @@ function setupApp(){
 
     //About
     $('#about_en').click(()=>{
-      $('.about_text_en').fadeToggle(250);
-      $('.about_text_he').fadeToggle(250, ()=>{
+      $('.about_text_en').fadeIn(250);
+      $('.about_text_he').fadeIn(250, ()=>{
         aboutOpen = !aboutOpen;
         $('body').css('cursor', 'url(assets/pointer.png), auto')
         console.log(aboutOpen);

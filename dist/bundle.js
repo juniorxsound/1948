@@ -22,10 +22,10 @@ $(document).ready(function() {
 
 });
 function onWindowResize(e){
-  if(e.target.innerWidth > 1013 && $('#not_supported').is(':visible') == true){
+  if(e.target.innerWidth > 1154 && $('#not_supported').is(':visible') == true){
     // console.log('start the app');
     hideNotSupported();
-  } else if(e.target.innerWidth < 1013 && $('#not_supported').is(':visible') != true){
+  } else if(e.target.innerWidth < 1154 && $('#not_supported').is(':visible') != true){
     // console.log('show the not supported');
     setupNotSupported();
   }

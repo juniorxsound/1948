@@ -5,7 +5,7 @@ $(document).ready(function() {
   console.log('app initialised');
 
   var ua = navigator.userAgent;
-
+  window.addEventListener('resize', onWindowResize, false);
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)){
       console.log('Mobile');
       setupNotSupported();
@@ -20,11 +20,24 @@ $(document).ready(function() {
     }
 
 });
-
+function onWindowResize(e){
+  if(e.target.innerWidth > 1013 && $('#not_supported').is(':visible') == true){
+    // console.log('start the app');
+    hideNotSupported();
+  } else if(e.target.innerWidth < 1013 && $('#not_supported').is(':visible') != true){
+    // console.log('show the not supported');
+    setupNotSupported();
+  }
+}
 function setupNotSupported(){
   $('#text_container').hide();
   $('.splash_text_en').hide();
   $('#not_supported').show();
+}
+function hideNotSupported(){
+  $('#text_container').show();
+  $('.splash_text_en').show();
+  $('#not_supported').hide();
 }
 
 function linkCopied(){

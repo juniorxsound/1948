@@ -165,7 +165,7 @@ video {
 #about_en{
   cursor: pointer;
   position: absolute;
-  bottom: 20px; left: 44%;
+  bottom: 30px; left: 47%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;
@@ -174,7 +174,7 @@ video {
 #share_en{
   cursor: pointer;
   position: absolute;
-  bottom: 20px; left: 54%;
+  bottom: 30px; left: 52%;
   color: rgb(0, 0, 255);
   font-family: 'Miriam Libre', sans-serif;
   font-weight: bold;

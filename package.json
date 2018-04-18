@@ -17,6 +17,7 @@
     "web-midi-api": "^1.4.4"
   },
   "dependencies": {
+    "copy-to-clipboard": "^3.0.8",
     "uglify-js": "^2.6.4",
     "watchify": "^3.7.0"
   }

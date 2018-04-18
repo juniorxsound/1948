@@ -216,6 +216,7 @@ video {
   display: none;
   font-family: 'Conv_Days-Bold';
   text-align: right;
+  direction: rtl;
   position: absolute;
   font-size: 3.5vh;
   top: 52%;

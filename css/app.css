@@ -213,14 +213,14 @@ video {
   z-index: 100;
 }
 .about_text_he{
-  display: none;
+  /* display: none; */
   font-family: 'Conv_Days-Bold';
-  text-align: center;
+  text-align: right;
   direction: rtl;
   position: absolute;
-  font-size: 6vh;
+  font-size: 3vh;
   top: 52%;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 100;
@@ -228,12 +228,13 @@ video {
 .about_text_en{
   display: none;
   font-family: 'Conv_Days-Bold';
-  text-align: center;
+  text-align: left;
   position: absolute;
-  font-size: 5vh;
+  font-size: 2.5vh;
   top: 52%;
-  left: 50%;
+  left: 68%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 100;
+  line-height: 1.8;
 }

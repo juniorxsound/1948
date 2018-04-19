@@ -30,4 +30,4 @@ To run the development enviorment:
 1. [jQuery](https://github.com/jquery/jquery)
 1. [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard)
 
-> 1948 was built by [Or Fleisher](http://orfleisher.com) and [Tal Baltuch](http://talbaltuch)
+> 1948 was built by [Or Fleisher](http://orfleisher.com) and [Tal Baltuch](http://talbaltuch.com)

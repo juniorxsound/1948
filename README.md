@@ -1,12 +1,17 @@
-# Israeli Alphabet
-The Israeli Alphabet is a project designed by Tal Baltuch, which symbolises words from the Israeli decleration if independence with a small loop, and let's you remix your own sentences using the keyboard.
+# 1948
 
-[Demo](https://juniorxsound.github.io/ICM-Fall-2016/Israeli%20Alphabet/)
-![alt text](https://github.com/juniorxsound/ICM-Fall-2016/blob/master/Israeli%20Alphabet/assets/screen.png "Alphabet Screenshot")
-Israeli Alphabet was built using:
+The declaration of independence is Israel's founding text. 1948 website allows you to remix that document according to your values and world view, and create an image that reflects that.
+- [Website](http://1948.site)
+- [Usage](#usage)
+
+![Animation](https://github.com/juniorxsound/1948/blob/master/docs/1948_1.gif)
+
+### Usage
+
+
+1948 was built using:
 
 1. [jQuery](https://github.com/jquery/jquery)
-
-> Built as a part of ICM class @ ITP, NYU lectured by Daniel Shiffman. 
+1. [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard)
 
 Written by Or Fleisher. 

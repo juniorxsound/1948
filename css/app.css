@@ -239,3 +239,14 @@ video {
   z-index: 100;
   line-height: 1.8;
 }
+#css_design_awards{
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  right: 15px;
+}
+#css_design_awards img{
+  width: 5%;
+  float: right;
+  padding: 7px;
+}
